@@ -4,7 +4,6 @@ import json
 def fetch_people_data(api_endpoint, keyword, per_page=5):
     """
     Fetch people data from Apollo API based on the given keyword.
-
     Args:
         api_endpoint (str): Apollo API endpoint.
         keyword (str): Keyword to search for.
