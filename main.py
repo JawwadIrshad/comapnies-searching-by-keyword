@@ -2,7 +2,7 @@ from src.gsheet import setup_google_sheets, get_keywords, create_tab, write_data
 from src.apollo import fetch_people_data, fetch_dummy_people_data
 
 # Constants defining the sheet name and the API endpoint for fetching data
-SHEET_NAME = "ApolloAPIAutomation"
+SHEET_NAME = "" #write a sheet nmae here
 API_ENDPOINT = ""
 
 def main():
